@@ -71,15 +71,15 @@ nav a {
 
 /*Sidebar*/
 
-sidebar {
+.sidebar {
 	float:left;
 }
 
-sidebar ul {
+.sidebar ul {
 	border: 1px solid #c8c8c8;
 }
 
-sidebar li {
+.sidebar li {
 	width: 198px;
 	height: 40px;
 	padding: 0 20px;
@@ -87,36 +87,36 @@ sidebar li {
 	border-bottom: 1px solid #c8c8c8;
 }
 
-sidebar li:last-child {
+.sidebar li:last-child {
 	border-bottom: none;
 }
 
-sidebar li a {
+.sidebar li a {
 	display: block;
 	color:#656363;
 	text-decoration: none;
 
 }
 
-sidebar li a:hover, sidebar li a.active {
+.sidebar li a:hover, .sidebar li a.active {
 	color:#2c2c2c;
 	text-indent: 10px;
 }
 
 /*Article*/
 
-article {
+.article {
 	width: 680px;
 	float: right;
 }
 
-article .photo {
+.article .photo {
 	border: 1px solid #c8c8c8;
 	padding: 40px 0;
 	text-align: center;
 }
 
-article .desc {
+.article .desc {
 	margin: 40px 25px;
 	line-height: 16pt;
 }
