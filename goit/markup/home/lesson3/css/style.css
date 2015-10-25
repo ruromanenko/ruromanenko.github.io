@@ -1,0 +1,150 @@
+@import 'reset.css';
+
+body {
+	background: #f9f9f9;
+	font-family: Open Sans, sans-serif;
+	font-size: 10pt;
+	color: #2c2c2c;
+}
+
+.wrapper {
+	width:965px;
+	margin: 0 auto;
+	padding: 50px 48px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	background: #fff;
+}
+
+header{
+	margin-bottom: 40px;
+}
+
+/*Navigation*/
+
+nav ul {
+	font-size: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+nav li {
+	display: inline-block;
+    margin-left: -1px;
+}
+
+nav a {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+/*Top Navigation*/
+
+.nav_top {
+	margin-bottom: 50px;
+	overflow: hidden;
+	background: linear-gradient(to bottom, #5e5e5e 0%,#444343 100%); 
+}
+
+.nav_top a {
+	color:#fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.nav_top a:hover, .nav_top a.active {
+	background: linear-gradient(to bottom, #4a4a4a 0%,#2e2e2e 100%); /* W3C */
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+/*Content*/
+.content {
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+/*Sidebar*/
+
+sidebar {
+	float:left;
+}
+
+sidebar ul {
+	border: 1px solid #c8c8c8;
+}
+
+sidebar li {
+	width: 198px;
+	height: 40px;
+	padding: 0 20px;
+	line-height: 40px;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+sidebar li:last-child {
+	border-bottom: none;
+}
+
+sidebar li a {
+	display: block;
+	color:#656363;
+	text-decoration: none;
+
+}
+
+sidebar li a:hover, sidebar li a.active {
+	color:#2c2c2c;
+	text-indent: 10px;
+}
+
+/*Article*/
+
+article {
+	width: 680px;
+	float: right;
+}
+
+article .photo {
+	border: 1px solid #c8c8c8;
+	padding: 40px 0;
+	text-align: center;
+}
+
+article .desc {
+	margin: 40px 25px;
+	line-height: 16pt;
+}
+
+/*Footer*/
+
+footer {
+	background: #e1e1e1;
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+/*Bottom Navigation*/
+
+.nav_bottom {
+	float: left;
+}
+
+.nav_bottom a {
+	color: #2c2c2c;
+}
+
+.nav_bottom a:hover, .nav_bottom a.active {
+	text-decoration: underline;
+}
+
+.copyright {
+	float: right;
+	line-height: 40px;
+	margin-right: 15px;
+}
