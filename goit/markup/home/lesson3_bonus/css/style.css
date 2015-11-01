@@ -1,0 +1,102 @@
+@import 'reset.css';
+
+html, body {
+	height: 100%;
+}
+
+html {
+	font-size: 12pt;
+}
+
+body {
+	background: #000;
+	font-family: Tahoma, Open Sans, sans-serif;
+	font-size: 1rem;
+	color: #fff;
+}
+
+.wrapper {
+	width: 820px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 70px 0;
+    background: url(../img/bg.jpg) no-repeat center top;
+    display: table;
+}
+
+header{
+	padding-top: 50px;
+	overflow: hidden;
+	position:relative;
+}
+
+.logo {
+	display: block;
+	float:left;
+}
+
+.contact_us {
+	bottom: 15px;
+	right: 20px;
+	position: absolute;
+}
+
+.contact_us h4 {
+	font-size: 0.8rem;
+	margin-bottom: 6px;
+}
+
+.contact_us .contacts {
+	font-size: 0.7rem;
+	line-height: 0.9rem;
+}
+
+
+/*Content*/
+.content {
+	overflow: hidden;
+    position: relative;
+}
+
+.gallery {
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+
+.gallery li {
+	float:left;
+	padding: 0 10px 50px 0;
+	position: relative;
+	right: 50%;
+	text-align: center;
+}
+
+.gallery li:nth-child(3n) {
+	padding-right: 0;
+}
+
+.gallery img {
+	display: block;
+}
+
+.gallery a {
+	color: #fff;
+	text-decoration:none;
+}
+
+.gallery a:hover span {
+	text-decoration: underline;
+}
+
+/*Footer*/
+
+footer {
+	    height: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 30px;
+}
