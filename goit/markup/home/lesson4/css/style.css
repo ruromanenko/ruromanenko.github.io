@@ -91,6 +91,10 @@ header {
 	font-size: 0.8rem;
 }
 
+.countries a:hover {
+	text-decoration: none;
+}
+
 .countries a:before {
 	content: " ";
 	display: block;
