@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tooltips</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<form method="POST" class="form">
+	<fieldset>
+		<div class="form__row">
+			<label class="form__label" for="firstname">Firstname</label>
+			<input id="firstname" class="form__text" name="firstname" title="Please provide your firstname">
+		</div>
+
+		<div class="form__row">
+			<label class="form__label" for="lastname">Lastname</label>
+			<input id="lastname" class="form__text" name="lastname" title="Please provide also your lastname">
+		</div>
+
+		<div class="form__row">
+			<label class="form__label" for="address">Address</label>
+			<input id="address" class="form__text" name="address" title="Your home or work address">
+		</div>
+	</fieldset>
+		<div class="form__row">
+			<button class="form__button">
+				<span>Show help</span>
+			</button>
+		</div>
+	
+</form>
+</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

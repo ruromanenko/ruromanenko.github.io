@@ -1,0 +1,46 @@
+@import 'reset.css';
+
+body {
+	font-family: tahoma, arial, sans-serif;
+}
+.wrapper {
+	width: 600px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+.form fieldset {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.form__row {
+	padding: 10px 0;
+	position: relative;
+}
+
+.form__label {
+	display: inline-block;
+	font-size: 10pt;
+	width: 100px;
+}
+
+.form__text {
+	  width: 180px;
+}
+
+.form__tooltip {
+  position: absolute;
+  left: 300px;
+  top: 5px;
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 10pt;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  display: none;
+  box-shadow: 0 0 5px rgba(0,0,255,0.5);
+}
