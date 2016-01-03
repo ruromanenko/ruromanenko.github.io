@@ -1,0 +1,75 @@
+@import 'reset.css';
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+	font-family: Arial, Tahoma, Sans-Serif;
+}
+
+.timer {
+	width: 300px;
+	height: 100px;
+	border: 3px solid #000;
+	background: linear-gradient(to bottom, #eee 0%, #ccc 100%);
+	border-radius: 20px;
+	margin: 50px auto 20px;
+	position: relative;
+	font-size: 50px;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding: 25px 37px;
+	text-align: center;
+}
+
+
+.timer__ms {
+	display: block;
+	position: absolute;
+	bottom: 25px;
+	font-size: 50%;
+	right: 45px;
+	bottom: 0px;
+	text-align: right;
+}
+
+
+
+.buttons {
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.btn {
+	display: block;
+	width: 100px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	border: 3px solid #000;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+.btn--start, .btn--cont, .btn--pause {
+	float: left;	
+}
+
+.btn--cont, .btn--pause {
+	display: none;
+}
+
+.btn--start, .btn--cont {
+	background: linear-gradient(to bottom, #eee 0%, #0c0 100%);
+}
+
+.btn--pause {
+	background: linear-gradient(to bottom, #eee 0%, #00c 100%);	
+}
+
+.btn--clear {
+	float: right;
+	background: linear-gradient(to bottom, #eee 0%, #c00 100%);	
+}
