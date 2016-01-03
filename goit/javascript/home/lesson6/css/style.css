@@ -1,0 +1,52 @@
+@import 'reset.css';
+
+body {
+	background: #000;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 100px auto;
+	font-family: Arial, Tahoma, Sans-Serif;
+}
+
+.timer {
+	position: relative;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 0 0 50px;
+    text-align: center;
+    color: #d00;
+}
+
+.buttons {
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	width: 100px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #000;
+	text-decoration: none;
+	background: linear-gradient(to bottom, #eee 0%, #aaa 100%);
+	color: #000;
+}
+
+.btn--stop {
+	display: none;
+}
+
+.split {
+	color: #ccc;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+	line-height: 1.5;
+}
